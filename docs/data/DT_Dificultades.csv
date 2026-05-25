@@ -1,0 +1,5 @@
+---,ID,Dificultad,IndiceDano,IndiceRecuperacionVida
+Facil,Facil,Facil,0.8,1.5
+Dificil,Dificil,Dificil,1.2,1.0
+MuyDificil,MuyDificil,MuyDificil,1.7,0.8
+Pesadilla,Pesadilla,Pesadilla,2.5,0.5

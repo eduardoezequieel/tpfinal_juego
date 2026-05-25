@@ -1,0 +1,63 @@
+# =============================================================================
+# .gitignore para proyecto Unreal Engine 5 - TP Final Plataformero
+# =============================================================================
+
+# --- Carpetas autogeneradas por Unreal (NUNCA versionar) -----------------
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# --- Archivos del proyecto Unreal ----------------------------------------
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# --- Visual Studio temporales --------------------------------------------
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# --- Rider IDE -----------------------------------------------------------
+.idea/
+
+# --- Builds de release (los maneja la carpeta /builds aparte) ------------
+# Si querés versionar tu build final con Git LFS, descomentá esto:
+# /builds/
+
+# --- Archivos de S.O. ----------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs y crashes ------------------------------------------------------
+*.log
+*.dmp
+
+# --- Plugins compilados --------------------------------------------------
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# --- Archivos de assets temporales ---------------------------------------
+*.tmp
+*.bak
+*~
+
+# --- Archivos grandes que mejor con Git LFS ------------------------------
+# Si tenés instalado Git LFS, los .uasset y .umap grandes deberían ir ahí.
+# Comando para habilitarlo:
+#   git lfs install
+#   git lfs track "*.uasset"
+#   git lfs track "*.umap"
+
+# --- Específicos del usuario ---------------------------------------------
+Config/DefaultEditor.ini.bak
+*.suo
+*.csproj.user
